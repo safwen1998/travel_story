@@ -1,0 +1,107 @@
+body{
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+}
+nav ul{
+    
+    float: right;
+}
+nav li{
+display:inline-block;
+color:aliceblue;
+font-size: 20px;
+padding-top: 50px;
+padding-right: 70px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+nav a:hover{
+    text-decoration: solid;
+    color: darkorange;
+}
+/*footer*/
+footer{
+    background-color:aliceblue;
+    align-items: center;
+    border-top: black dashed;
+    border-bottom: black dashed;
+
+    
+
+    
+    
+}
+.contenu_footer img{
+   width:  20px;
+}
+.contenu_footer{
+    width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding:50px 0px 100px  ;
+    
+    
+}
+.contenu_footer div{
+    padding-left: 50px;
+}
+.contenu_footer h3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    color:darkorange;
+}
+.contenu_footer p{
+    text-align: left;
+   
+}
+#us{
+    border-top:black dashed;
+}
+/*fin*/
+.cont{
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.avis b{
+    color: aliceblue;
+    font-size: 20px;
+}
+.avis{
+    background-image: url('../images/newsletter.jpg');
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont_avis button{
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  
+}
+.cont_avis button:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+.cont_avis textarea{
+    width: 100%;
+   background-color: rgba(0, 0, 0, 0.4);
+   color: aliceblue;
+   font-size: 12px;
+}
